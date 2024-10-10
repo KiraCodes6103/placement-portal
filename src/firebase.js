@@ -8,22 +8,14 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDiQPl6Qrw8G7ZdCPYJ3qiGRK-7DuzTL94",
-  authDomain: "cdc-portal-5df01.firebaseapp.com",
-  projectId: "cdc-portal-5df01",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_API_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
   storageBucket: "cdc-portal-5df01.appspot.com",
-  messagingSenderId: "230716679462",
-  appId: "1:230716679462:web:987fe3a80b10251c3e0de7"
+  messagingSenderId: process.env.REACT_APP_MESSAGIN_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID
 };
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDEed5tmyM5bz6oQKfDvxjbCimXlaTiNC0",
-//   authDomain: "placement-portal-f4d0c.firebaseapp.com",
-//   projectId: "placement-portal-f4d0c",
-//   storageBucket: "placement-portal-f4d0c.appspot.com",
-//   messagingSenderId: "1059650633515",
-//   appId: "1:1059650633515:web:74d3ea1ca9ebe34abccf6e",
-//   measurementId: "G-0PGCZXXL97",
-// };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
