@@ -93,4 +93,4 @@ With no centralized portal for companies, much of the placement process is handl
 ## 📬 Contact
 For any queries or suggestions, feel free to reach out:
 - Email: yash6102003@gmail.com
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/yashasvi-tripathi-114738222/)
+- LinkedIn: [Profile Link](https://www.linkedin.com/in/yashasvi-tripathi-114738222/)
